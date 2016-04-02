@@ -52,18 +52,15 @@
                 </item>
             </layer-list>
         </item>
-<item>
-        <ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?android:colorControlHighlight">
-                <item android:id="@android:id/mask">
-                    <shape android:shape="oval">
-                        <solid android:color="#FFBB00" />
-                    </shape>
-                </item>
+
+    <item>
+               <layer-list> 
                 <item>
                     <shape android:shape="oval">
                         <solid android:color="@color/ColorPrimary" />
                     </shape>
                 </item>
-            </ripple>
+                </layer-list>
+
     </item>
     </layer-list>
